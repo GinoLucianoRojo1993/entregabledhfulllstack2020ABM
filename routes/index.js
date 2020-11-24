@@ -4,7 +4,7 @@ const productController = require('../controllers/productController');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Tienda JS' });
+  res.render('index', { title: 'Tienda realizada en JS' });
 });
 
 router.get('/create', productController.renderCreate);
